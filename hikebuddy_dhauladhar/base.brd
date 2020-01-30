@@ -213,8 +213,8 @@ Saurabh Gandhi</text>
 <text x="56.25" y="33" size="0.8128" layer="27" rot="R45">V_GPS
      (3.3V)</text>
 <text x="57.45" y="30.15" size="0.8128" layer="27">GPS / UART Extension</text>
-<text x="48.15" y="35.2" size="0.8128" layer="27" rot="R45">SCL</text>
-<text x="45.35" y="35.05" size="0.8128" layer="27" rot="R45">SDA</text>
+<text x="45.5" y="35.2" size="0.8128" layer="27" rot="R45">SCL</text>
+<text x="48.05" y="35" size="0.8128" layer="27" rot="R45">SDA</text>
 <text x="42.7" y="34.9" size="0.8128" layer="27" rot="R45">GND</text>
 <text x="34.25" y="33.9" size="0.8128" layer="27" rot="R45">GPIO/
       Flash</text>
@@ -3662,11 +3662,11 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <wire x1="23.2769" y1="2.8539" x2="22.3678" y2="1.9448" width="0.1524" layer="16"/>
 <wire x1="22.3678" y1="1.9448" x2="21" y2="1.9448" width="0.1524" layer="16"/>
 <wire x1="38.195" y1="20.05" x2="38.147" y2="20.002" width="0.15" layer="1"/>
-<wire x1="38.147" y1="20.002" x2="37.51329375" y2="20.002" width="0.15" layer="1"/>
-<wire x1="37.51329375" y1="20.002" x2="37.273" y2="19.76170625" width="0.15" layer="1"/>
-<wire x1="37.273" y1="18.83829375" x2="37.648" y2="18.46329375" width="0.15" layer="1"/>
-<wire x1="37.273" y1="19.76170625" x2="37.273" y2="18.83829375" width="0.15" layer="1"/>
-<wire x1="37.648" y1="18.46329375" x2="37.648" y2="17.01633125" width="0.15" layer="1"/>
+<wire x1="38.147" y1="20.002" x2="37.41329375" y2="20.002" width="0.15" layer="1"/>
+<wire x1="37.41329375" y1="20.002" x2="37.123" y2="19.71170625" width="0.15" layer="1"/>
+<wire x1="37.123" y1="18.78829375" x2="37.648" y2="18.26329375" width="0.15" layer="1"/>
+<wire x1="37.123" y1="19.71170625" x2="37.123" y2="18.78829375" width="0.15" layer="1"/>
+<wire x1="37.648" y1="18.26329375" x2="37.648" y2="17.01633125" width="0.15" layer="1"/>
 <wire x1="37.648" y1="17.01633125" x2="37.86633125" y2="16.798" width="0.15" layer="1"/>
 <wire x1="37.86633125" y1="16.798" x2="39.13366875" y2="16.798" width="0.15" layer="1"/>
 <wire x1="39.13366875" y1="16.798" x2="40.152" y2="17.81633125" width="0.15" layer="1"/>
@@ -3851,9 +3851,9 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <wire x1="13.2516" y1="13.7016" x2="13.834" y2="14.284" width="0.127" layer="1"/>
 <wire x1="21.92885" y1="14.542" x2="35.4762" y2="14.542" width="0.127" layer="1"/>
 <contactref element="U7" pad="7"/>
-<wire x1="44.8" y1="18.8" x2="43.5794125" y2="17.5794125" width="0.1524" layer="1"/>
-<wire x1="41.0205875" y1="17.5794125" x2="43.5794125" y2="17.5794125" width="0.1524" layer="1"/>
-<wire x1="44.8" y1="18.8" x2="44.75" y2="19.25" width="0.1524" layer="1"/>
+<wire x1="44.75" y1="18.7" x2="43.6294125" y2="17.5794125" width="0.1524" layer="1"/>
+<wire x1="41.0205875" y1="17.5794125" x2="43.6294125" y2="17.5794125" width="0.1524" layer="1"/>
+<wire x1="44.75" y1="18.7" x2="44.75" y2="19.25" width="0.1524" layer="1"/>
 </signal>
 <signal name="ACCL2">
 <contactref element="ESP32-PICO-D4" pad="12"/>
