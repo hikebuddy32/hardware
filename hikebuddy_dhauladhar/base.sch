@@ -7322,6 +7322,8 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <part name="R45" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="100K"/>
 <part name="J9" library="47352-1001" deviceset="47352-1001" device="" package3d_urn="urn:adsk.eagle:package:16346114/2"/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="R16" library="MF_Passives" deviceset="RESISTOR" device="_0603" package3d_urn="urn:adsk.eagle:package:16347927/2" value="10K"/>
+<part name="C20" library="MF_Passives" deviceset="CAPACITOR_NP" device="_0603" package3d_urn="urn:adsk.eagle:package:16347923/3" value="1uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -9162,6 +9164,14 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <instance part="GND15" gate="1" x="152.4" y="10.16" smashed="yes">
 <attribute name="VALUE" x="152.4" y="9.906" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="R16" gate="G$1" x="53.34" y="78.74" smashed="yes" rot="R180">
+<attribute name="NAME" x="50.8" y="77.216" size="1.016" layer="95" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="50.8" y="80.264" size="1.016" layer="96" font="vector" rot="R180"/>
+</instance>
+<instance part="C20" gate="G$1" x="50.8" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="48.26" y="64.516" size="1.016" layer="95" font="vector" rot="R180" align="top-left"/>
+<attribute name="VALUE" x="48.26" y="67.564" size="1.016" layer="96" font="vector" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9219,8 +9229,9 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <wire x1="27.94" y1="91.44" x2="25.4" y2="91.44" width="0.1524" layer="91"/>
 <junction x="25.4" y="91.44"/>
 <pinref part="U1" gate="G$1" pin="NTC"/>
-<wire x1="58.42" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="48.26" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
 <junction x="25.4" y="48.26"/>
+<wire x1="50.8" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="43.18" x2="25.4" y2="5.08" width="0.1524" layer="91"/>
 <pinref part="R22" gate="G$1" pin="P$2"/>
 <wire x1="38.1" y1="88.9" x2="25.4" y2="88.9" width="0.1524" layer="91"/>
@@ -9243,6 +9254,9 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <junction x="25.4" y="96.52"/>
 <pinref part="VREG_MODE" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="C20" gate="G$1" pin="P$1"/>
+<wire x1="50.8" y1="63.5" x2="50.8" y2="48.26" width="0.1524" layer="91"/>
+<junction x="50.8" y="48.26"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -9324,20 +9338,23 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 </net>
 <net name="V_REG" class="0">
 <segment>
+<pinref part="L2" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="P$1"/>
+<pinref part="U1" gate="G$1" pin="LDO3V3"/>
+<wire x1="53.34" y1="73.66" x2="53.34" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="58.42" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="ILIM1"/>
 <pinref part="U1" gate="G$1" pin="ILIM0"/>
 <wire x1="58.42" y1="63.5" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="LDO3V3"/>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
-<wire x1="76.2" y1="60.96" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="76.2" y1="88.9" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="60.96" x2="76.2" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="76.2" y1="119.38" x2="93.98" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="63.5" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 <junction x="58.42" y="63.5"/>
-<pinref part="U1" gate="G$1" pin="EN3"/>
-<wire x1="58.42" y1="60.96" x2="58.42" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="88.9" x2="76.2" y2="88.9" width="0.1524" layer="91"/>
-<junction x="76.2" y="88.9"/>
 <pinref part="C12" gate="G$1" pin="P$2"/>
 <wire x1="93.98" y1="119.38" x2="111.76" y2="119.38" width="0.1524" layer="91"/>
 <junction x="93.98" y="119.38"/>
@@ -9379,11 +9396,7 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <wire x1="15.24" y1="58.42" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="15.24" y1="60.96" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 <label x="111.76" y="119.38" size="1.27" layer="95" rot="R90" xref="yes"/>
-</segment>
-<segment>
-<pinref part="L2" gate="G$1" pin="1"/>
-<wire x1="38.1" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-<label x="35.56" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="58.42" y1="58.42" x2="58.42" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="JUMPER" class="0">
@@ -9684,6 +9697,22 @@ http://www.st.com/web/en/resource/technical/document/technical_note/CD00134799.p
 <pinref part="U2" gate="G$1" pin="ALRT"/>
 <wire x1="195.58" y1="53.34" x2="208.28" y2="53.34" width="0.1524" layer="91"/>
 <label x="208.28" y="53.34" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="EN3"/>
+<wire x1="93.98" y1="88.9" x2="73.66" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="88.9" x2="73.66" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="FAULT"/>
+<wire x1="73.66" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="P$2"/>
+<wire x1="58.42" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
+<junction x="58.42" y="83.82"/>
+<pinref part="C20" gate="G$1" pin="P$2"/>
+<wire x1="50.8" y1="68.58" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
+<junction x="53.34" y="83.82"/>
 </segment>
 </net>
 </nets>
