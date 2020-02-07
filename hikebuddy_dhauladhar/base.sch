@@ -2075,17 +2075,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </parts>
 <sheets>
 <sheet>
-<description>ESP32 and peripherals</description>
-<plain>
-</plain>
-<instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
 <description>Power</description>
 <plain>
 </plain>
@@ -2796,68 +2785,6 @@ Two pin, compact surface mount connector. Commonly used as a battery input conne
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="104,1,73.66,73.66,ESP32-PICO-D4,VDDA,VCC,,,"/>
-<approved hash="104,1,73.66,71.12,ESP32-PICO-D4,VDDA3P3,VCC,,,"/>
-<approved hash="202,1,33.02,58.42,ESP32-PICO-D4,SENSOR_VP,,,,"/>
-<approved hash="202,1,33.02,55.88,ESP32-PICO-D4,SENSOR_CAPP,,,,"/>
-<approved hash="202,1,33.02,53.34,ESP32-PICO-D4,SENSOR_CAPN,,,,"/>
-<approved hash="202,1,33.02,50.8,ESP32-PICO-D4,SENSOR_VN,,,,"/>
-<approved hash="104,1,73.66,68.58,ESP32-PICO-D4,VDD3P3_RTC,VCC,,,"/>
-<approved hash="104,1,73.66,66.04,ESP32-PICO-D4,VDD_SDIO,VCC,,,"/>
-<approved hash="104,1,73.66,63.5,ESP32-PICO-D4,VDD3P3_CPU,VCC,,,"/>
-<approved hash="202,1,43.18,-45.72,FT231,!RI#,,,,"/>
-<approved hash="202,1,43.18,-40.64,FT231,!DSR#,,,,"/>
-<approved hash="202,1,43.18,-43.18,FT231,!DCD#,,,,"/>
-<approved hash="202,1,43.18,-38.1,FT231,!CTS#,,,,"/>
-<approved hash="104,1,78.74,-25.4,FT231,3V3OUT,N$5,,,"/>
-<approved hash="104,1,78.74,-20.32,FT231,VCC,V_USB,,,"/>
-<approved hash="104,1,78.74,-22.86,FT231,VCCIO,N$5,,,"/>
-<approved hash="104,1,187.96,-43.18,MCP73831,VIN,V_USB,,,"/>
-<approved hash="104,1,208.28,-43.18,MCP73831,VBAT,V_BATT,,,"/>
-<approved hash="104,1,208.28,-48.26,MCP73831,VSS,GND,,,"/>
-<approved hash="104,1,167.64,-23.114,USB,5V,V_USB,,,"/>
-<approved hash="104,1,167.64,-35.814,USB,SLD,GND,,,"/>
-<approved hash="104,1,345.44,-33.02,LSM303,VDD,VCC,,,"/>
-<approved hash="104,1,259.08,-40.64,BME280,VDD,VCC,,,"/>
-<approved hash="104,1,259.08,-38.1,BME280,VDDIO,VCC,,,"/>
-<approved hash="104,1,327.66,-5.08,SD-CARD,3.3V,3V3_SDC,,,"/>
-<approved hash="206,1,233.68,-106.68,5V,,,,,"/>
-<approved hash="206,1,233.68,-109.22,5V,,,,,"/>
-<approved hash="208,1,233.68,-106.68,5V,out,,,,"/>
-<approved hash="208,1,233.68,-109.22,5V,out,,,,"/>
-<approved hash="208,1,238.76,-106.68,5V,sup,,,,"/>
-<approved hash="106,1,73.66,38.1,NC0,,,,,"/>
-<approved hash="106,1,73.66,40.64,NC1,,,,,"/>
-<approved hash="106,1,73.66,48.26,NC2,,,,,"/>
-<approved hash="106,1,73.66,50.8,NC3,,,,,"/>
-<approved hash="106,1,73.66,15.24,NC4,,,,,"/>
-<approved hash="106,1,33.02,12.7,NC5,,,,,"/>
-<approved hash="110,1,325.12,12.7,IO12,SD_CS,,,,"/>
-<approved hash="110,1,325.12,12.7,IO12,SD_CS,,,,"/>
-<approved hash="110,1,325.12,10.16,IO12,SD_MOSI,,,,"/>
-<approved hash="110,1,325.12,10.16,IO12,SD_MOSI,,,,"/>
-<approved hash="110,1,325.12,7.62,IO12,SD_CLK,,,,"/>
-<approved hash="110,1,325.12,7.62,IO12,SD_CLK,,,,"/>
-<approved hash="110,1,314.96,12.7,N$23,SD_CS,,,,"/>
-<approved hash="110,1,314.96,12.7,N$23,SD_CS,,,,"/>
-<approved hash="110,1,314.96,10.16,N$23,SD_MOSI,,,,"/>
-<approved hash="110,1,314.96,10.16,N$23,SD_MOSI,,,,"/>
-<approved hash="110,1,314.96,7.62,N$23,SD_CLK,,,,"/>
-<approved hash="110,1,314.96,7.62,N$23,SD_CLK,,,,"/>
-<approved hash="111,1,20.32,-33.02,D+,,,,,"/>
-<approved hash="111,1,81.28,-22.86,N$5,,,,,"/>
-<approved hash="111,1,86.36,58.42,ESP_TX,,,,,"/>
-<approved hash="111,1,294.64,-48.26,I2C_SCL,,,,,"/>
-<approved hash="111,1,170.18,22.86,N$16,,,,,"/>
-<approved hash="111,1,215.9,15.24,TX_GPS,,,,,"/>
-<approved hash="111,1,162.56,45.72,N$16,,,,,"/>
-<approved hash="113,1,228.102,-43.9644,BATTERY,,,,,"/>
-<approved hash="113,1,274.372,45.72,U8,,,,,"/>
-<approved hash="113,1,165.609,45.72,U10,,,,,"/>
-<approved hash="113,1,119.889,-101.6,U12,,,,,"/>
-<approved hash="113,1,157.989,-101.6,U15,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <compatibility>
