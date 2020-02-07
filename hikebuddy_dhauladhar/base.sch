@@ -6661,87 +6661,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </deviceset>
 </devicesets>
 </library>
-<library name="B3U-3000P">
-<packages>
-<package name="SW_B3U-3000P" urn="urn:adsk.eagle:footprint:16346046/1">
-<wire x1="1.5" y1="1.25" x2="-1.5" y2="1.25" width="0.127" layer="21"/>
-<wire x1="-1.5" y1="1.25" x2="-1.5" y2="-1.25" width="0.127" layer="51"/>
-<wire x1="-1.5" y1="-1.25" x2="-0.85" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-1.25" x2="0.85" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-1.25" x2="1.5" y2="-1.25" width="0.127" layer="21"/>
-<wire x1="1.5" y1="-1.25" x2="1.5" y2="1.25" width="0.127" layer="51"/>
-<wire x1="2.5" y1="-2.2" x2="-2.5" y2="-2.2" width="0.127" layer="39"/>
-<wire x1="-2.5" y1="-2.2" x2="-2.5" y2="1.5" width="0.127" layer="39"/>
-<wire x1="-2.5" y1="1.5" x2="2.5" y2="1.5" width="0.127" layer="39"/>
-<wire x1="2.5" y1="1.5" x2="2.5" y2="-2.2" width="0.127" layer="39"/>
-<wire x1="0.45" y1="-1.95" x2="-0.45" y2="-1.95" width="0.127" layer="21"/>
-<wire x1="-0.85" y1="-1.25" x2="-0.85" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="0.85" y1="-1.25" x2="0.85" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="0.45" y1="-1.95" x2="0.85" y2="-1.7" width="0.127" layer="21"/>
-<wire x1="-0.45" y1="-1.95" x2="-0.85" y2="-1.7" width="0.127" layer="21"/>
-<circle x="-2" y="1.2" radius="0.127" width="0" layer="21"/>
-<text x="-2.603459375" y="1.60213125" size="0.81388125" layer="25">&gt;NAME</text>
-<text x="-2.604340625" y="-3.205340625" size="0.81415625" layer="27">&gt;VALUE</text>
-<smd name="2" x="1.7" y="0" dx="0.8" dy="1.7" layer="1" rot="R180"/>
-<smd name="1" x="-1.7" y="0" dx="0.8" dy="1.7" layer="1" rot="R180"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SW_B3U-3000P" urn="urn:adsk.eagle:package:16346045/2" type="model">
-<packageinstances>
-<packageinstance name="SW_B3U-3000P"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="B3U-3000P">
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<rectangle x1="-8.90551875" y1="-1.27221875" x2="-7.62" y2="1.27" layer="94"/>
-<rectangle x1="7.6278" y1="-1.2713" x2="8.89" y2="1.27" layer="94"/>
-<text x="-7.63093125" y="5.087290625" size="2.543640625" layer="95">&gt;NAME</text>
-<text x="-7.63371875" y="-7.63371875" size="2.54456875" layer="96">&gt;VALUE</text>
-<pin name="1" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="-12.7" y="0" length="middle" direction="pas"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="B3U-3000P" prefix="S">
-<description>Switch Tactile N.O. SPST Button Gull Wing 0.05A 12VDC 1.59N SMD Embossed T/R</description>
-<gates>
-<gate name="G$1" symbol="B3U-3000P" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SW_B3U-3000P">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16346045/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value="  Switch Tactile N.O. SPST Button Gull Wing 0.05A 12VDC 1.59N SMD Embossed T/R "/>
-<attribute name="MF" value="Omron"/>
-<attribute name="MP" value="B3U-3000P"/>
-<attribute name="PACKAGE" value="None"/>
-<attribute name="PRICE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="47352-1001">
 <packages>
 <package name="MOLEX_47352-1001" urn="urn:adsk.eagle:footprint:16346115/1">
@@ -6941,6 +6860,97 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </deviceset>
 </devicesets>
 </library>
+<library name="EVQ-P4HB3B">
+<packages>
+<package name="SW_EVQ-P4HB3B">
+<wire x1="2.06" y1="-0.05" x2="-2.06" y2="-0.05" width="0" layer="46"/>
+<wire x1="-2.55" y1="-1.7" x2="-2.55" y2="-0.55" width="0" layer="46"/>
+<wire x1="2.55" y1="-1.7" x2="2.55" y2="-0.55" width="0" layer="46"/>
+<wire x1="-3.1" y1="-1.7" x2="3.1" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="3.1" y1="-1.7" x2="3.1" y2="0.85" width="0.127" layer="51"/>
+<wire x1="3.1" y1="0.85" x2="-3.1" y2="0.85" width="0.127" layer="51"/>
+<wire x1="-3.1" y1="0.85" x2="-3.1" y2="-1.7" width="0.127" layer="51"/>
+<wire x1="-3.75" y1="-1.5" x2="-3.75" y2="-0.2" width="0.05" layer="39"/>
+<wire x1="-3.75" y1="-0.2" x2="-3.35" y2="-0.2" width="0.05" layer="39"/>
+<wire x1="-3.35" y1="-0.2" x2="-3.35" y2="1.65" width="0.05" layer="39"/>
+<wire x1="-3.35" y1="1.65" x2="3.35" y2="1.65" width="0.05" layer="39"/>
+<wire x1="3.35" y1="1.65" x2="3.35" y2="-0.2" width="0.05" layer="39"/>
+<wire x1="3.35" y1="-0.2" x2="3.75" y2="-0.2" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-0.2" x2="3.75" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="3.75" y1="-1.5" x2="3.35" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="3.35" y1="-1.5" x2="3.35" y2="-1.95" width="0.05" layer="39"/>
+<wire x1="3.35" y1="-1.95" x2="-3.35" y2="-1.95" width="0.05" layer="39"/>
+<wire x1="-3.35" y1="-1.95" x2="-3.35" y2="-1.5" width="0.05" layer="39"/>
+<wire x1="-3.35" y1="-1.5" x2="-3.75" y2="-1.5" width="0.05" layer="39"/>
+<text x="-3.1" y="2.05" size="0.8128" layer="25">&gt;NAME</text>
+<text x="-3.15" y="-2.85" size="0.8128" layer="27">&gt;VALUE</text>
+<text x="3.85" y="-1.6" size="0.6096" layer="51">PCB EDGE</text>
+<wire x1="3.1" y1="-1.7" x2="5.8" y2="-1.7" width="0.127" layer="51"/>
+<circle x="-3.7" y="1.4" radius="0.1" width="0.2" layer="51"/>
+<circle x="-3.7" y="1.4" radius="0.1" width="0.2" layer="21"/>
+<wire x1="-2.55" y1="-1.7" x2="-3.1" y2="-1.7" width="0" layer="46"/>
+<wire x1="2.55" y1="-1.7" x2="3.1" y2="-1.7" width="0" layer="46"/>
+<wire x1="-2.55" y1="-0.55" x2="-2.06" y2="-0.05" width="0" layer="46" curve="-180"/>
+<wire x1="2.55" y1="-0.55" x2="2.06" y2="-0.05" width="0" layer="46" curve="180"/>
+<wire x1="-1.15" y1="0.85" x2="1.15" y2="0.85" width="0.127" layer="21"/>
+<wire x1="-3.1" y1="0.04" x2="-3.1" y2="-0.15" width="0.127" layer="21"/>
+<wire x1="3.1" y1="0.04" x2="3.1" y2="-0.15" width="0.127" layer="21"/>
+<smd name="1" x="-2.275" y="0.875" dx="1.45" dy="1.05" layer="1"/>
+<smd name="2" x="2.275" y="0.875" dx="1.45" dy="1.05" layer="1"/>
+<smd name="3" x="-3.2" y="-0.85" dx="0.6" dy="0.8" layer="1"/>
+<smd name="4" x="3.2" y="-0.85" dx="0.6" dy="0.8" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="EVQ-P4HB3B">
+<circle x="-2.54" y="0" radius="0.254" width="0.508" layer="94"/>
+<circle x="2.54" y="0" radius="0.254" width="0.508" layer="94"/>
+<wire x1="-3.81" y1="1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="0" y2="5.08" width="0.254" layer="94"/>
+<text x="-5.08" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="pad" length="middle" direction="pas" rot="R180"/>
+<pin name="SHIELD" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="EVQ-P4HB3B" prefix="S">
+<description>Light Touch Switch, 3.5x2.9mm Right Angl Side-operational L-Shape, Force=2.2N, H=1.35mm,</description>
+<gates>
+<gate name="G$1" symbol="EVQ-P4HB3B" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SW_EVQ-P4HB3B">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="SHIELD" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Tactile Switch SPST-NO Side Actuated Edge Mount, Right Angle "/>
+<attribute name="MF" value="Panasonic Electronic"/>
+<attribute name="MP" value="EVQ-P4HB3B"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7086,10 +7096,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C36" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="C37" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
-<part name="S1" library="B3U-3000P" deviceset="B3U-3000P" device="" package3d_urn="urn:adsk.eagle:package:16346045/2" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
-<part name="S2" library="B3U-3000P" deviceset="B3U-3000P" device="" package3d_urn="urn:adsk.eagle:package:16346045/2" override_package3d_urn="urn:adsk.eagle:package:16346040/2" override_package_urn="urn:adsk.eagle:footprint:16346041/1" override_locally_modified="yes"/>
-<part name="S3" library="B3U-3000P" deviceset="B3U-3000P" device="" package3d_urn="urn:adsk.eagle:package:16346045/2"/>
-<part name="S4" library="B3U-3000P" deviceset="B3U-3000P" device="" package3d_urn="urn:adsk.eagle:package:16346045/2" override_package3d_urn="urn:adsk.eagle:package:16346042/2" override_package_urn="urn:adsk.eagle:footprint:16346043/1" override_locally_modified="yes"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="R32" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R33" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -7123,6 +7129,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="3V3_ESP5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="3V3_ESP"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
+<part name="S2" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
+<part name="S3" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
+<part name="S4" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
+<part name="S1" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
 </parts>
 <sheets>
 <sheet>
@@ -7383,22 +7393,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="NAME" x="249.301" y="51.816" size="1.778" layer="95" font="vector" rot="R270"/>
 <attribute name="VALUE" x="244.221" y="51.816" size="1.778" layer="96" font="vector" rot="R270"/>
 </instance>
-<instance part="S1" gate="G$1" x="66.04" y="22.86" smashed="yes">
-<attribute name="NAME" x="58.40906875" y="27.947290625" size="2.543640625" layer="95"/>
-<attribute name="VALUE" x="58.40628125" y="15.22628125" size="2.54456875" layer="96"/>
-</instance>
-<instance part="S2" gate="G$1" x="66.04" y="5.08" smashed="yes">
-<attribute name="NAME" x="58.40906875" y="10.167290625" size="2.543640625" layer="95"/>
-<attribute name="VALUE" x="58.40628125" y="-2.55371875" size="2.54456875" layer="96"/>
-</instance>
-<instance part="S3" gate="G$1" x="66.04" y="-12.7" smashed="yes">
-<attribute name="NAME" x="58.40906875" y="-7.612709375" size="2.543640625" layer="95"/>
-<attribute name="VALUE" x="58.40628125" y="-20.33371875" size="2.54456875" layer="96"/>
-</instance>
-<instance part="S4" gate="G$1" x="66.04" y="-30.48" smashed="yes">
-<attribute name="NAME" x="58.40906875" y="-25.392709375" size="2.543640625" layer="95"/>
-<attribute name="VALUE" x="58.40628125" y="-38.11371875" size="2.54456875" layer="96"/>
-</instance>
 <instance part="GND14" gate="1" x="78.74" y="-40.64" smashed="yes">
 <attribute name="VALUE" x="76.2" y="-43.18" size="1.778" layer="96"/>
 </instance>
@@ -7508,6 +7502,22 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="C21" gate="G$1" x="403.86" y="109.22" smashed="yes">
 <attribute name="NAME" x="405.384" y="112.141" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="405.384" y="107.061" size="1.778" layer="96" font="vector"/>
+</instance>
+<instance part="S2" gate="G$1" x="68.58" y="-30.48" smashed="yes">
+<attribute name="NAME" x="60.94906875" y="-25.392709375" size="2.543640625" layer="95"/>
+<attribute name="VALUE" x="60.94628125" y="-38.11371875" size="2.54456875" layer="96"/>
+</instance>
+<instance part="S3" gate="G$1" x="68.58" y="-12.7" smashed="yes">
+<attribute name="NAME" x="60.94906875" y="-7.612709375" size="2.543640625" layer="95"/>
+<attribute name="VALUE" x="60.94628125" y="-20.33371875" size="2.54456875" layer="96"/>
+</instance>
+<instance part="S4" gate="G$1" x="68.58" y="5.08" smashed="yes">
+<attribute name="NAME" x="60.94906875" y="10.167290625" size="2.543640625" layer="95"/>
+<attribute name="VALUE" x="60.94628125" y="-2.55371875" size="2.54456875" layer="96"/>
+</instance>
+<instance part="S1" gate="G$1" x="68.58" y="22.86" smashed="yes">
+<attribute name="NAME" x="60.94906875" y="27.947290625" size="2.543640625" layer="95"/>
+<attribute name="VALUE" x="60.94628125" y="15.22628125" size="2.54456875" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -7773,18 +7783,32 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="193.04" y1="22.86" x2="243.84" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="S1" gate="G$1" pin="1"/>
-<pinref part="S2" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="22.86" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="5.08" x2="78.74" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="78.74" y="5.08"/>
-<pinref part="S4" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="-12.7" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="78.74" y="-12.7"/>
-<wire x1="78.74" y1="-30.48" x2="78.74" y2="-38.1" width="0.1524" layer="91"/>
-<junction x="78.74" y="-30.48"/>
 <pinref part="GND14" gate="1" pin="GND"/>
+<wire x1="78.74" y1="-33.02" x2="78.74" y2="-38.1" width="0.1524" layer="91"/>
+<pinref part="S2" gate="G$1" pin="SHIELD"/>
+<wire x1="78.74" y1="22.86" x2="78.74" y2="21.6662" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="2"/>
+<pinref part="S4" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="20.32" x2="78.74" y2="5.08" width="0.1524" layer="91"/>
+<pinref part="S1" gate="G$1" pin="SHIELD"/>
+<wire x1="78.74" y1="22.86" x2="78.74" y2="20.32" width="0.1524" layer="91"/>
+<junction x="78.74" y="22.86"/>
+<junction x="78.74" y="20.32"/>
+<pinref part="S3" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="2.54" x2="78.74" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="S4" gate="G$1" pin="SHIELD"/>
+<wire x1="78.74" y1="5.08" x2="78.74" y2="2.54" width="0.1524" layer="91"/>
+<junction x="78.74" y="5.08"/>
+<junction x="78.74" y="2.54"/>
+<pinref part="S2" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="-15.24" x2="78.74" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="SHIELD"/>
+<wire x1="78.74" y1="-12.7" x2="78.74" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="78.74" y="-12.7"/>
+<junction x="78.74" y="-15.24"/>
+<wire x1="78.74" y1="-30.48" x2="78.74" y2="-33.02" width="0.1524" layer="91"/>
+<junction x="78.74" y="-30.48"/>
+<junction x="78.74" y="-33.02"/>
 </segment>
 <segment>
 <pinref part="R30" gate="G$1" pin="1"/>
@@ -8604,13 +8628,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW1" class="0">
 <segment>
-<pinref part="S1" gate="G$1" pin="2"/>
 <pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="22.86" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <junction x="50.8" y="22.86"/>
 <label x="27.94" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="S1" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_VP"/>
@@ -8620,13 +8644,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW2" class="0">
 <segment>
-<pinref part="S2" gate="G$1" pin="2"/>
 <pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="5.08" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
 <junction x="45.72" y="5.08"/>
 <label x="27.94" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="S4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_CAPP"/>
@@ -8636,13 +8660,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW3" class="0">
 <segment>
-<pinref part="S3" gate="G$1" pin="2"/>
 <pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-12.7" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-12.7" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-12.7" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
 <junction x="40.64" y="-12.7"/>
 <label x="27.94" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="S3" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_CAPN"/>
@@ -8652,13 +8676,13 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW4" class="0">
 <segment>
-<pinref part="S4" gate="G$1" pin="2"/>
 <pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="-30.48" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-30.48" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-30.48" x2="35.56" y2="-27.94" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="-30.48" x2="27.94" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="35.56" y="-30.48"/>
 <label x="27.94" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="S2" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_VN"/>
