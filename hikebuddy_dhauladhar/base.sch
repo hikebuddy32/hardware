@@ -8353,7 +8353,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="R36" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="ACCL1" class="0">
+<net name="GPIO_EXT" class="0">
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="IO33"/>
 <wire x1="30.48" y1="157.48" x2="27.94" y2="157.48" width="0.1524" layer="91"/>
@@ -8365,28 +8365,16 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="J8" gate="G$1" pin="6"/>
 </segment>
 </net>
-<net name="ACCL2" class="0">
+<net name="LCD_EXTCOMM" class="0">
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="IO32"/>
 <wire x1="30.48" y1="154.94" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
 <label x="27.94" y="154.94" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U6" gate="G$1" pin="INT1"/>
-<wire x1="373.38" y1="101.6" x2="370.84" y2="101.6" width="0.1524" layer="91"/>
-<label x="370.84" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="MAGDRDY" class="0">
-<segment>
-<pinref part="ESP32-PICO-D4" gate="G$1" pin="IO34"/>
-<wire x1="30.48" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
-<label x="27.94" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="U$5" gate="G$1" pin="EXTCOMIN"/>
-<wire x1="322.58" y1="35.56" x2="345.44" y2="35.56" width="0.1524" layer="91"/>
-<label x="322.58" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="345.44" y1="35.56" x2="342.9" y2="35.56" width="0.1524" layer="91"/>
+<label x="342.9" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LED1" class="0">
@@ -8693,6 +8681,18 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="27.94" y="152.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="R31" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="152.4" x2="30.48" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BMX_INT" class="0">
+<segment>
+<pinref part="U6" gate="G$1" pin="INT1"/>
+<wire x1="373.38" y1="101.6" x2="370.84" y2="101.6" width="0.1524" layer="91"/>
+<label x="370.84" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="ESP32-PICO-D4" gate="G$1" pin="IO34"/>
+<wire x1="30.48" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
+<label x="27.94" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
