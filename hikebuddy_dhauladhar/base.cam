@@ -6,7 +6,7 @@
     "description": {
         "EN": "EAGLE default 2 layer CAM job."
     },
-    "output_type": "directory",
+    "output_type": "zip",
     "outputs": [
         {
             "filename_prefix": "CAMOutputs/GerberFiles",
@@ -82,6 +82,7 @@
                     },
                     "filename_format": "%PREFIX/profile.gbr",
                     "layers": [
+                        46
                     ],
                     "milling": true,
                     "polarity": "positive",
@@ -217,7 +218,8 @@
                     "filename_format": "%PREFIX/silkscreen_bottom.gbr",
                     "layers": [
                         22,
-                        26
+                        26,
+                        28
                     ],
                     "milling": false,
                     "name": "Silkscreen Bottom",
@@ -255,15 +257,15 @@
             "outputs": [
                 {
                     "filename_format": "%ASSEMBLYPREFIX/%N",
-                    "list_attribute": true,
-                    "list_type": "parts",
-                    "name": "Bill of Material",
+                    "list_attribute": false,
+                    "list_type": "values",
+                    "name": "bom",
                     "output_format": "csv",
                     "type": "bom"
                 },
                 {
                     "filename_format": "%ASSEMBLYPREFIX/PnP_%N_%BOARDSIDE",
-                    "name": "Pick and Place",
+                    "name": "pnp",
                     "output_format": "txt",
                     "type": "pick_and_place"
                 }

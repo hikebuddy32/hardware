@@ -7124,12 +7124,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="C36" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="C37" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R32" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R33" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R34" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="R35" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="3V3_ESP3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="3V3_ESP"/>
 <part name="R30" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R31" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
@@ -7422,25 +7417,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="GND14" gate="1" x="78.74" y="-40.64" smashed="yes">
 <attribute name="VALUE" x="76.2" y="-43.18" size="1.778" layer="96"/>
 </instance>
-<instance part="R32" gate="G$1" x="50.8" y="30.48" smashed="yes" rot="R90">
-<attribute name="NAME" x="49.276" y="30.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="52.324" y="30.48" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R33" gate="G$1" x="45.72" y="12.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="44.196" y="12.7" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="47.244" y="12.7" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R34" gate="G$1" x="40.64" y="-5.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.116" y="-5.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="42.164" y="-5.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="R35" gate="G$1" x="35.56" y="-22.86" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.036" y="-22.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="37.084" y="-22.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
-</instance>
-<instance part="3V3_ESP3" gate="G$1" x="45.72" y="35.56" smashed="yes">
-<attribute name="VALUE" x="45.72" y="38.354" size="1.778" layer="96" align="bottom-center"/>
-</instance>
 <instance part="R30" gate="G$1" x="88.9" y="147.32" smashed="yes" rot="R90">
 <attribute name="NAME" x="87.376" y="147.32" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="90.424" y="147.32" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
@@ -7611,22 +7587,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <segment>
 <pinref part="D4" gate="G$1" pin="ANODE"/>
 <pinref part="3V3_ESP13" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="R35" gate="G$1" pin="2"/>
-<pinref part="R32" gate="G$1" pin="2"/>
-<wire x1="35.56" y1="-17.78" x2="35.56" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="35.56" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R34" gate="G$1" pin="2"/>
-<wire x1="40.64" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="35.56" x2="50.8" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="0" x2="40.64" y2="35.56" width="0.1524" layer="91"/>
-<junction x="40.64" y="35.56"/>
-<pinref part="R33" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="17.78" x2="45.72" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="35.56" x2="43.18" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="3V3_ESP3" gate="G$1" pin="VCC"/>
-<junction x="45.72" y="35.56"/>
 </segment>
 <segment>
 <pinref part="J4" gate="J$1" pin="2"/>
@@ -8254,16 +8214,16 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="NC2" class="0">
 <segment>
-<pinref part="ESP32-PICO-D4" gate="G$1" pin="CMD"/>
-<wire x1="71.12" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
-<label x="73.66" y="167.64" size="1.27" layer="95" xref="yes"/>
+<pinref part="ESP32-PICO-D4" gate="G$1" pin="SD2"/>
+<wire x1="71.12" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
+<label x="73.66" y="162.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NC3" class="0">
 <segment>
-<pinref part="ESP32-PICO-D4" gate="G$1" pin="CLK"/>
-<wire x1="71.12" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
-<label x="73.66" y="170.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="ESP32-PICO-D4" gate="G$1" pin="SD3"/>
+<wire x1="71.12" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
+<label x="73.66" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="NC0" class="0">
@@ -8278,20 +8238,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SD1"/>
 <wire x1="71.12" y1="160.02" x2="73.66" y2="160.02" width="0.1524" layer="91"/>
 <label x="73.66" y="160.02" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="NC4" class="0">
-<segment>
-<pinref part="ESP32-PICO-D4" gate="G$1" pin="IO16"/>
-<wire x1="71.12" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
-<label x="73.66" y="134.62" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="NC5" class="0">
-<segment>
-<pinref part="ESP32-PICO-D4" gate="G$1" pin="IO17"/>
-<wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
-<label x="27.94" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="LCD_MOSI" class="0">
@@ -8513,9 +8459,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="170.18" y="187.96" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP32-PICO-D4" gate="G$1" pin="SD3"/>
-<wire x1="71.12" y1="165.1" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
-<label x="73.66" y="165.1" size="1.27" layer="95" xref="yes"/>
+<pinref part="ESP32-PICO-D4" gate="G$1" pin="IO16"/>
+<wire x1="71.12" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
+<label x="73.66" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GPS_TX" class="0">
@@ -8529,9 +8475,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="167.64" y="187.96" size="1.27" layer="95" rot="R270" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ESP32-PICO-D4" gate="G$1" pin="SD2"/>
-<wire x1="71.12" y1="162.56" x2="73.66" y2="162.56" width="0.1524" layer="91"/>
-<label x="73.66" y="162.56" size="1.27" layer="95" xref="yes"/>
+<pinref part="ESP32-PICO-D4" gate="G$1" pin="IO17"/>
+<wire x1="30.48" y1="132.08" x2="27.94" y2="132.08" width="0.1524" layer="91"/>
+<label x="27.94" y="132.08" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="GPS_SAFEBOOT" class="0">
@@ -8613,11 +8559,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW1" class="0">
 <segment>
-<pinref part="R32" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="22.86" x2="50.8" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="22.86" x2="50.8" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="50.8" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
-<junction x="50.8" y="22.86"/>
+<wire x1="58.42" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
 <label x="27.94" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S1" gate="G$1" pin="1"/>
 </segment>
@@ -8629,11 +8571,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW2" class="0">
 <segment>
-<pinref part="R33" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="5.08" x2="45.72" y2="5.08" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="5.08" x2="45.72" y2="7.62" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
-<junction x="45.72" y="5.08"/>
+<wire x1="58.42" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
 <label x="27.94" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S4" gate="G$1" pin="1"/>
 </segment>
@@ -8645,11 +8583,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW3" class="0">
 <segment>
-<pinref part="R34" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="-12.7" x2="40.64" y2="-12.7" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-12.7" x2="40.64" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
-<junction x="40.64" y="-12.7"/>
+<wire x1="58.42" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
 <label x="27.94" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S3" gate="G$1" pin="1"/>
 </segment>
@@ -8661,11 +8595,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW4" class="0">
 <segment>
-<pinref part="R35" gate="G$1" pin="1"/>
-<wire x1="58.42" y1="-30.48" x2="35.56" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-30.48" x2="35.56" y2="-27.94" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="-30.48" x2="27.94" y2="-30.48" width="0.1524" layer="91"/>
-<junction x="35.56" y="-30.48"/>
+<wire x1="58.42" y1="-30.48" x2="27.94" y2="-30.48" width="0.1524" layer="91"/>
 <label x="27.94" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S2" gate="G$1" pin="1"/>
 </segment>
@@ -8693,6 +8623,20 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="IO34"/>
 <wire x1="30.48" y1="162.56" x2="27.94" y2="162.56" width="0.1524" layer="91"/>
 <label x="27.94" y="162.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="NC4" class="0">
+<segment>
+<pinref part="ESP32-PICO-D4" gate="G$1" pin="CMD"/>
+<wire x1="71.12" y1="167.64" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
+<label x="73.66" y="167.64" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="NC5" class="0">
+<segment>
+<pinref part="ESP32-PICO-D4" gate="G$1" pin="CLK"/>
+<wire x1="71.12" y1="170.18" x2="73.66" y2="170.18" width="0.1524" layer="91"/>
+<label x="73.66" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>

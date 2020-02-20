@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-12-27T07:31:26Z",
+        "CreationDate": "2020-02-20T22:22:53Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -17,8 +17,8 @@
         },
         "Owner": "Saurabh Gandhi <gsaurabhr@gmail.com>",
         "Size": {
-            "X": 75,
-            "Y": 40
+            "X": 75.05,
+            "Y": 41.05
         }
     }
 }
