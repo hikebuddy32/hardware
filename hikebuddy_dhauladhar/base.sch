@@ -6890,9 +6890,9 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <library name="EVQ-P4HB3B">
 <packages>
 <package name="SW_EVQ-P4HB3B">
-<wire x1="2.06" y1="-0.05" x2="-2.06" y2="-0.05" width="0" layer="46"/>
-<wire x1="-2.55" y1="-1.7" x2="-2.55" y2="-0.55" width="0" layer="46"/>
-<wire x1="2.55" y1="-1.7" x2="2.55" y2="-0.55" width="0" layer="46"/>
+<wire x1="2.06" y1="-0.05" x2="-2.06" y2="-0.05" width="0" layer="20"/>
+<wire x1="-2.55" y1="-1.7" x2="-2.55" y2="-0.55" width="0" layer="20"/>
+<wire x1="2.55" y1="-1.7" x2="2.55" y2="-0.55" width="0" layer="20"/>
 <wire x1="-3.1" y1="-1.7" x2="3.1" y2="-1.7" width="0.127" layer="51"/>
 <wire x1="3.1" y1="-1.7" x2="3.1" y2="0.85" width="0.127" layer="51"/>
 <wire x1="3.1" y1="0.85" x2="-3.1" y2="0.85" width="0.127" layer="51"/>
@@ -6915,10 +6915,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="3.1" y1="-1.7" x2="5.8" y2="-1.7" width="0.127" layer="51"/>
 <circle x="-3.7" y="1.4" radius="0.1" width="0.2" layer="51"/>
 <circle x="-3.7" y="1.4" radius="0.1" width="0.2" layer="21"/>
-<wire x1="-2.55" y1="-1.7" x2="-3.1" y2="-1.7" width="0" layer="46"/>
-<wire x1="2.55" y1="-1.7" x2="3.1" y2="-1.7" width="0" layer="46"/>
-<wire x1="-2.55" y1="-0.55" x2="-2.06" y2="-0.05" width="0" layer="46" curve="-180"/>
-<wire x1="2.55" y1="-0.55" x2="2.06" y2="-0.05" width="0" layer="46" curve="180"/>
+<wire x1="-2.55" y1="-1.7" x2="-3.1" y2="-1.7" width="0" layer="20"/>
+<wire x1="2.55" y1="-1.7" x2="3.1" y2="-1.7" width="0" layer="20"/>
+<wire x1="-2.55" y1="-0.55" x2="-2.06" y2="-0.05" width="0" layer="20" curve="-180"/>
+<wire x1="2.55" y1="-0.55" x2="2.06" y2="-0.05" width="0" layer="20" curve="180"/>
 <wire x1="-1.15" y1="0.85" x2="1.15" y2="0.85" width="0.127" layer="21"/>
 <wire x1="-3.1" y1="0.04" x2="-3.1" y2="-0.15" width="0.127" layer="21"/>
 <wire x1="3.1" y1="0.04" x2="3.1" y2="-0.15" width="0.127" layer="21"/>
@@ -6978,6 +6978,217 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </deviceset>
 </devicesets>
 </library>
+<library name="MF_Passives" urn="urn:adsk.eagle:library:16347882">
+<packages>
+<package name="C0603" urn="urn:adsk.eagle:footprint:16347897/1" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 0603 Package for Capacitors&lt;br/&gt;</description>
+<smd name="P$1" x="-0.75" y="0" dx="0.6" dy="0.9" layer="1" rot="R180"/>
+<smd name="P$2" x="0.75" y="0" dx="0.6" dy="0.9" layer="1" rot="R180"/>
+<wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.4" y1="-0.7" x2="1.4" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="-0.7" x2="1.4" y2="0.7" width="0.127" layer="21"/>
+<wire x1="1.4" y1="0.7" x2="-1.4" y2="0.7" width="0.127" layer="21"/>
+<text x="-1.4" y="1.1" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="C0402" urn="urn:adsk.eagle:footprint:16347898/1" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 0402 Package for Capacitors&lt;br/&gt;</description>
+<smd name="P$1" x="-0.55" y="0" dx="0.5" dy="0.6" layer="1" rot="R180"/>
+<smd name="P$2" x="0.55" y="0" dx="0.5" dy="0.6" layer="1" rot="R180"/>
+<wire x1="-1.1" y1="0.55" x2="-1.1" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="-1.1" y1="-0.55" x2="1.1" y2="-0.55" width="0.127" layer="21"/>
+<wire x1="1.1" y1="-0.55" x2="1.1" y2="0.55" width="0.127" layer="21"/>
+<wire x1="1.1" y1="0.55" x2="-1.1" y2="0.55" width="0.127" layer="21"/>
+<text x="-1.1" y="1.1" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="C0805" urn="urn:adsk.eagle:footprint:16347896/1" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 0805 Package for Capacitors&lt;br/&gt;</description>
+<smd name="P$1" x="-0.95" y="0" dx="0.7" dy="1.3" layer="1" rot="R180"/>
+<smd name="P$2" x="0.95" y="0" dx="0.7" dy="1.3" layer="1" rot="R180"/>
+<wire x1="-1.8" y1="0.9" x2="-1.8" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="-1.8" y1="-0.9" x2="1.8" y2="-0.9" width="0.127" layer="21"/>
+<wire x1="1.8" y1="-0.9" x2="1.8" y2="0.9" width="0.127" layer="21"/>
+<wire x1="1.8" y1="0.9" x2="-1.8" y2="0.9" width="0.127" layer="21"/>
+<text x="-1.8" y="1.1" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="C1206" urn="urn:adsk.eagle:footprint:16347895/1" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 1206 Package for Capacitors&lt;br/&gt;</description>
+<smd name="P$1" x="-1.45" y="0" dx="0.9" dy="1.6" layer="1" rot="R180"/>
+<smd name="P$2" x="1.45" y="0" dx="0.9" dy="1.6" layer="1" rot="R180"/>
+<wire x1="-2.2" y1="1.1" x2="-2.2" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.1" x2="2.2" y2="-1.1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.1" x2="2.2" y2="1.1" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.1" x2="-2.2" y2="1.1" width="0.127" layer="21"/>
+<text x="-2.2" y="1.3" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+<package name="C1210" urn="urn:adsk.eagle:footprint:16347893/1" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 1210 Package for Capacitors&lt;br/&gt;</description>
+<smd name="P$1" x="-1.45" y="0" dx="0.9" dy="2.5" layer="1" rot="R180"/>
+<smd name="P$2" x="1.45" y="0" dx="0.9" dy="2.5" layer="1" rot="R180"/>
+<wire x1="-2.2" y1="1.6" x2="-2.2" y2="-1.575" width="0.127" layer="21"/>
+<wire x1="-2.2" y1="-1.575" x2="2.2" y2="-1.575" width="0.127" layer="21"/>
+<wire x1="2.2" y1="-1.575" x2="2.2" y2="1.6" width="0.127" layer="21"/>
+<wire x1="2.2" y1="1.6" x2="-2.2" y2="1.6" width="0.127" layer="21"/>
+<text x="-2.2" y="1.8" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="C0603" urn="urn:adsk.eagle:package:16347923/3" type="model" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 0603 Package for Capacitors&lt;br/&gt;</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
+</package3d>
+<package3d name="C0402" urn="urn:adsk.eagle:package:16347924/1" type="box" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 0402 Package for Capacitors&lt;br/&gt;</description>
+<packageinstances>
+<packageinstance name="C0402"/>
+</packageinstances>
+</package3d>
+<package3d name="C0805" urn="urn:adsk.eagle:package:16347922/1" type="box" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 0805 Package for Capacitors&lt;br/&gt;</description>
+<packageinstances>
+<packageinstance name="C0805"/>
+</packageinstances>
+</package3d>
+<package3d name="C1206" urn="urn:adsk.eagle:package:16347921/2" type="model" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 1206 Package for Capacitors&lt;br/&gt;</description>
+<packageinstances>
+<packageinstance name="C1206"/>
+</packageinstances>
+</package3d>
+<package3d name="C1210" urn="urn:adsk.eagle:package:16347919/1" type="box" library_version="4">
+<description>&lt;b&gt;Description:&lt;/b&gt; Standard 1210 Package for Capacitors&lt;br/&gt;</description>
+<packageinstances>
+<packageinstance name="C1210"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="CAPACITOR_NP" urn="urn:adsk.eagle:symbol:16347907/1" library_version="4">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Passives&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Symbol for Non-Polarized Capacitors&lt;br/&gt;</description>
+<pin name="P$1" x="0" y="2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="P$2" x="0" y="-2.54" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
+<text x="2.54" y="1.524" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
+<text x="2.54" y="-1.524" size="1.016" layer="96" font="vector">&gt;VALUE</text>
+<wire x1="0" y1="2.54" x2="0" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-1.016" width="0.1524" layer="94"/>
+<rectangle x1="-1.778" y1="0.508" x2="1.778" y2="1.27" layer="94"/>
+<rectangle x1="-1.778" y1="-1.27" x2="1.778" y2="-0.508" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CAPACITOR_NP" urn="urn:adsk.eagle:component:16347933/3" prefix="C" uservalue="yes" library_version="4">
+<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Passives&lt;br/&gt;
+&lt;b&gt;Description:&lt;/b&gt; Device for Non-Polarized Capacitors. Manufacture part number (MPN) can be added via Attributes. Check https://factory.macrofab.com/parts for the house parts list.&lt;br/&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_NP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="_0402" package="C0402">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16347924/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0603" package="C0603">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16347923/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_0805" package="C0805">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16347922/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1206" package="C1206">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16347921/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="_1210" package="C1210">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16347919/1"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="DIELECTRIC" value="" constant="no"/>
+<attribute name="HOUSEPART" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="POPULATE" value="1" constant="no"/>
+<attribute name="TOLERANCE" value="" constant="no"/>
+<attribute name="URL" value="" constant="no"/>
+<attribute name="VOLTAGE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7028,8 +7239,8 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="R12" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
 <part name="R14" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
-<part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
-<part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C14" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
+<part name="C15" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1uF"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="3V3_ESP6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="3V3_ESP"/>
@@ -7061,15 +7272,21 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="R19" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="100">
 <attribute name="DNP" value="1"/>
 </part>
-<part name="J2" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK" value="GPS Port"/>
+<part name="J2" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK" value="GPS Port">
+<attribute name="DNP" value="1"/>
+</part>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="U1" library="LTC3586EUFE-3_TRPBF" deviceset="LTC3586EUFE-3#TRPBF" device="" package3d_urn="urn:adsk.eagle:package:16348004/2" value=" LTC3586EUFE-1#PBF"/>
+<part name="U1" library="LTC3586EUFE-3_TRPBF" deviceset="LTC3586EUFE-3#TRPBF" device="" package3d_urn="urn:adsk.eagle:package:16348004/2" value=" LTC3586EUFE-1#PBF">
+<attribute name="MP" value="LTC3586EUFE"/>
+</part>
 <part name="U2" library="MAX17260SETD_coulomb" deviceset="MAX17260SETD+" device="" package3d_urn="urn:adsk.eagle:package:16348021/2"/>
-<part name="BATTERY1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" override_package3d_urn="urn:adsk.eagle:package:16346146/2" override_package_urn="urn:adsk.eagle:footprint:16346147/1"/>
+<part name="BATTERY1" library="SparkFun-Connectors" deviceset="JST_2MM_MALE" device="" override_package3d_urn="urn:adsk.eagle:package:16346146/2" override_package_urn="urn:adsk.eagle:footprint:16346147/1" value="S2B-PH-SM4-TB(LF)(SN)">
+<attribute name="SPICEPREFIX" value="E"/>
+</part>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="V_USB" device=""/>
 <part name="J1" library="MF_Connectors" deviceset="USB" device="_MICRO_RIGHT" package3d_urn="urn:adsk.eagle:package:9948223/2" value="MF-CON-MICROUSB-RIGHT"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="C9" library="MF_Passives" deviceset="CAPACITOR_NP" device="_1206" package3d_urn="urn:adsk.eagle:package:16347921/2" value="10uF"/>
+<part name="C9" library="MF_Passives" library_urn="urn:adsk.eagle:library:16347882" deviceset="CAPACITOR_NP" device="_0603" package3d_urn="urn:adsk.eagle:package:16347923/3" value="10uF"/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R7" library="MF_Passives" deviceset="RESISTOR" device="_0603" package3d_urn="urn:adsk.eagle:package:16347927/2" value="2K"/>
 <part name="R8" library="MF_Passives" deviceset="RESISTOR" device="_0603" package3d_urn="urn:adsk.eagle:package:16347927/2" value="3K"/>
@@ -7135,12 +7352,22 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="C19" library="SparkFun-Capacitors" deviceset="4.7UF" device="-0603-6.3V-(10%)" package3d_urn="urn:adsk.eagle:package:23616/2" value="4.7uF"/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="J3" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK"/>
-<part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK"/>
+<part name="J3" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK">
+<attribute name="DNP" value="1"/>
+</part>
+<part name="J4" library="SparkFun-Connectors" deviceset="CONN_03" device="LOCK">
+<attribute name="DNP" value="1"/>
+</part>
 <part name="J5" library="SparkFun-Connectors" deviceset="SOLDER_PAD_2" device=""/>
-<part name="J6" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="J7" library="SparkFun-Connectors" deviceset="CONN_01" device=""/>
-<part name="J8" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK"/>
+<part name="J6" library="SparkFun-Connectors" deviceset="CONN_01" device="">
+<attribute name="DNP" value="1"/>
+</part>
+<part name="J7" library="SparkFun-Connectors" deviceset="CONN_01" device="">
+<attribute name="DNP" value="1"/>
+</part>
+<part name="J8" library="SparkFun-Connectors" deviceset="CONN_06" device="LOCK">
+<attribute name="DNP" value="1"/>
+</part>
 <part name="C8" library="SparkFun-Capacitors" deviceset="4.7PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="C38" library="SparkFun-Capacitors" deviceset="4.7PF" device="-0603-50V-5%" package3d_urn="urn:adsk.eagle:package:23616/2" value="10uF"/>
 <part name="R16" library="MF_Passives" deviceset="RESISTOR" device="_0603" package3d_urn="urn:adsk.eagle:package:16347927/2" value="10K"/>
@@ -7395,6 +7622,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="J2" gate="G$1" x="165.1" y="193.04" smashed="yes" rot="R270">
 <attribute name="VALUE" x="155.194" y="198.12" size="1.778" layer="96" font="vector" rot="R270"/>
 <attribute name="NAME" x="175.768" y="198.12" size="1.778" layer="95" font="vector" rot="R270"/>
+<attribute name="DNP" x="165.1" y="193.04" size="1.778" layer="96" rot="R270" display="off"/>
 </instance>
 <instance part="GND9" gate="1" x="160.02" y="185.42" smashed="yes">
 <attribute name="VALUE" x="157.48" y="182.88" size="1.778" layer="96"/>
@@ -7455,10 +7683,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="J3" gate="J$1" x="137.16" y="27.94" smashed="yes">
 <attribute name="VALUE" x="134.62" y="20.574" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="134.62" y="33.528" size="1.778" layer="95" font="vector"/>
+<attribute name="DNP" x="137.16" y="27.94" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J4" gate="J$1" x="137.16" y="48.26" smashed="yes">
 <attribute name="VALUE" x="134.62" y="40.894" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="134.62" y="53.848" size="1.778" layer="95" font="vector"/>
+<attribute name="DNP" x="137.16" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J5" gate="G$1" x="254" y="45.72" smashed="yes" rot="R180">
 <attribute name="VALUE" x="256.54" y="50.546" size="1.778" layer="96" font="vector" rot="R180"/>
@@ -7467,14 +7697,17 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="J6" gate="G$1" x="157.48" y="78.74" smashed="yes">
 <attribute name="VALUE" x="154.94" y="73.914" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="154.94" y="81.788" size="1.778" layer="95" font="vector"/>
+<attribute name="DNP" x="157.48" y="78.74" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J7" gate="G$1" x="157.48" y="76.2" smashed="yes">
 <attribute name="VALUE" x="154.94" y="71.374" size="1.778" layer="96" font="vector"/>
 <attribute name="NAME" x="154.94" y="79.248" size="1.778" layer="95" font="vector"/>
+<attribute name="DNP" x="157.48" y="76.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="J8" gate="G$1" x="360.68" y="68.58" smashed="yes" rot="R180">
 <attribute name="VALUE" x="365.76" y="78.486" size="1.778" layer="96" font="vector" rot="R180"/>
 <attribute name="NAME" x="365.76" y="57.912" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="DNP" x="360.68" y="68.58" size="1.778" layer="96" rot="R180" display="off"/>
 </instance>
 <instance part="C8" gate="G$1" x="104.14" y="195.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="102.616" y="192.659" size="1.778" layer="95" font="vector" rot="R180"/>

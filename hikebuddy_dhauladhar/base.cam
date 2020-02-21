@@ -1,12 +1,12 @@
 {
     "author": {
-        "email": "support.eagle@autodesk.com",
-        "name": "Autodesk EAGLE"
+        "email": "gsaurabhr@gmail.com",
+        "name": "Saurabh Gandhi"
     },
     "description": {
         "EN": "EAGLE default 2 layer CAM job."
     },
-    "output_type": "zip",
+    "output_type": "directory",
     "outputs": [
         {
             "filename_prefix": "CAMOutputs/GerberFiles",
@@ -192,9 +192,9 @@
                     },
                     "filename_format": "%PREFIX/silkscreen_top.gbr",
                     "layers": [
-                        21,
                         25,
-                        27
+                        27,
+                        21
                     ],
                     "milling": false,
                     "name": "Silkscreen Top",
@@ -217,9 +217,8 @@
                     },
                     "filename_format": "%PREFIX/silkscreen_bottom.gbr",
                     "layers": [
-                        22,
                         26,
-                        28
+                        22
                     ],
                     "milling": false,
                     "name": "Silkscreen Bottom",
@@ -257,15 +256,15 @@
             "outputs": [
                 {
                     "filename_format": "%ASSEMBLYPREFIX/%N",
-                    "list_attribute": false,
+                    "list_attribute": true,
                     "list_type": "values",
-                    "name": "bom",
+                    "name": "Bill of Material",
                     "output_format": "csv",
                     "type": "bom"
                 },
                 {
                     "filename_format": "%ASSEMBLYPREFIX/PnP_%N_%BOARDSIDE",
-                    "name": "pnp",
+                    "name": "Pick and Place",
                     "output_format": "txt",
                     "type": "pick_and_place"
                 }
@@ -278,7 +277,7 @@
             ]
         }
     ],
-    "timestamp": "2019-07-17T17:48:33",
+    "timestamp": "2020-02-21T14:01:42",
     "type": "EAGLE CAM job",
     "units": "metric",
     "version": "9.2.0"
