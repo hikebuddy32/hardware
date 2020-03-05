@@ -272,7 +272,9 @@ UsedLibrary="C:/Users/saurabh.gandhi/other_projects/hikebuddy/hardware/Reference
 UsedLibrary="C:/Users/saurabh.gandhi/other_projects/hikebuddy/hardware/Reference/EAGLE lbr/EVQ-P4HB3B.lbr"
 UsedLibrary="C:/Users/saurabh.gandhi/other_projects/hikebuddy/hardware/Reference/EAGLE lbr/MF_Connectors.lbr"
 UsedLibrary="C:/Users/saurabh.gandhi/other_projects/hikebuddy/hardware/Reference/EAGLE lbr/MF_Passives.lbr"
+UsedLibrary="C:/Users/saurabh.gandhi/other_projects/hikebuddy/hardware/Reference/EAGLE lbr/RFM95W-868S2.lbr"
 UsedLibrary="C:/Users/saurabh.gandhi/other_projects/hikebuddy/hardware/Reference/EAGLE lbr/SparkFun-Capacitors.lbr"
+UsedLibrary="C:/Users/saurabh.gandhi/other_projects/hikebuddy/hardware/Reference/EAGLE lbr/SparkFun-Connectors.lbr"
 UsedLibraryUrn="urn:adsk.eagle:library:217"
 UsedLibraryUrn="urn:adsk.eagle:library:178"
 UsedLibraryUrn="urn:adsk.eagle:library:185"
@@ -397,5 +399,5 @@ Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="3840 1080"
+Screen="1920 1080"
 Window="Win_1"
