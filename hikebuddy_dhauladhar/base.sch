@@ -4851,64 +4851,12 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <wire x1="3.8" y1="-1.75" x2="3.8" y2="-4" width="0.127" layer="21"/>
 <text x="-3.8" y="1.5" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
 </package>
-<package name="MF-MICROSD" urn="urn:adsk.eagle:footprint:9948142/1">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for Micro SD Card Slot connector. Based on 4uconnector 15882.&lt;br&gt;</description>
-<smd name="PIN1" x="-1.93875" y="3.15125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="PIN2" x="-0.83875" y="2.95125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="PIN3" x="0.26125" y="3.15125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="PIN4" x="1.36125" y="3.35125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="PIN5" x="2.46125" y="3.15125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="PIN6" x="3.56125" y="3.35125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="PIN7" x="4.66125" y="3.15125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="PIN8" x="5.76125" y="3.15125" dx="0.8" dy="1.5" layer="1" rot="R180"/>
-<smd name="G0" x="-6.58875" y="7.00125" dx="1.4" dy="1.9" layer="1"/>
-<smd name="G1" x="6.56125" y="6.00125" dx="1.4" dy="1.9" layer="1"/>
-<smd name="PIN9" x="4.96125" y="-7.14875" dx="1.8" dy="1.4" layer="1"/>
-<smd name="PIN10" x="-0.73875" y="-7.14875" dx="1.8" dy="1.4" layer="1"/>
-<wire x1="-7.025" y1="5.77625" x2="-7.025" y2="-7.625" width="0.127" layer="21"/>
-<wire x1="-7.025" y1="-7.625" x2="-1.91375" y2="-7.625" width="0.127" layer="21"/>
-<wire x1="6.19875" y1="-7.625" x2="7.025" y2="-7.625" width="0.127" layer="21"/>
-<wire x1="7.025" y1="-7.625" x2="7.025" y2="4.67625" width="0.127" layer="21"/>
-<wire x1="7.025" y1="7.28875" x2="7.025" y2="7.625" width="0.127" layer="21"/>
-<wire x1="7.025" y1="7.625" x2="-5.65" y2="7.625" width="0.127" layer="21"/>
-<wire x1="-2.32625" y1="7.625" x2="-2.32625" y2="8.225" width="0.127" layer="51"/>
-<wire x1="6.19875" y1="7.625" x2="6.19875" y2="8.225" width="0.127" layer="51"/>
-<wire x1="-2.32625" y1="8.225" x2="6.19875" y2="8.225" width="0.127" layer="51"/>
-<wire x1="-2.32625" y1="8.225" x2="-2.32625" y2="9.225" width="0.127" layer="51"/>
-<wire x1="-2.32625" y1="9.225" x2="6.19875" y2="9.225" width="0.127" layer="51"/>
-<wire x1="6.19875" y1="9.225" x2="6.19875" y2="8.25125" width="0.127" layer="51"/>
-<wire x1="-2.32625" y1="9.225" x2="-2.32625" y2="12.6075" width="0.127" layer="51"/>
-<wire x1="-2.32625" y1="12.6075" x2="-2.00875" y2="12.925" width="0.127" layer="51" curve="-90"/>
-<wire x1="-2.00875" y1="12.925" x2="5.88125" y2="12.925" width="0.127" layer="51"/>
-<wire x1="5.88125" y1="12.925" x2="6.19875" y2="12.6075" width="0.127" layer="51" curve="-90"/>
-<wire x1="6.19875" y1="12.6075" x2="6.19875" y2="9.225" width="0.127" layer="51"/>
-<wire x1="0.4" y1="-7.625" x2="3.72375" y2="-7.625" width="0.127" layer="21"/>
-<text x="7.50125" y="-7.625" size="1.016" layer="25" font="vector" ratio="16">&gt;NAME</text>
-<text x="6.47375" y="12.925" size="0.6096" layer="51" font="vector" ratio="16">Card Push Out</text>
-<text x="6.47375" y="9.225" size="0.6096" layer="51" font="vector" ratio="16">Card Lock Position</text>
-<text x="6.47375" y="8.225" size="0.6096" layer="51" font="vector" ratio="16">Card Push In</text>
-<polygon width="0.127" layer="21">
-<vertex x="1.79875" y="7.42625"/>
-<vertex x="2.07375" y="7.42625"/>
-<vertex x="2.07375" y="6.87625"/>
-<vertex x="2.34875" y="6.87625"/>
-<vertex x="1.93625" y="6.46375"/>
-<vertex x="1.52375" y="6.87625"/>
-<vertex x="1.79875" y="6.87625"/>
-</polygon>
-</package>
 </packages>
 <packages3d>
 <package3d name="MICROUSB-RIGHT" urn="urn:adsk.eagle:package:9948223/2" type="model">
 <description>&lt;b&gt;Description:&lt;/b&gt; Package for Micro USB Type B connector. Based on FCI 10118193-0001LF.&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="MICROUSB-RIGHT"/>
-</packageinstances>
-</package3d>
-<package3d name="MF-MICROSD" urn="urn:adsk.eagle:package:9948224/2" type="model">
-<description>&lt;b&gt;Description:&lt;/b&gt; Package for Micro SD Card Slot connector. Based on 4uconnector 15882.&lt;br&gt;</description>
-<packageinstances>
-<packageinstance name="MF-MICROSD"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -4973,56 +4921,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <vertex x="-0.3175" y="-4.826" curve="-90"/>
 </polygon>
 </symbol>
-<symbol name="SD_CARD">
-<description>&lt;b&gt;Description:&lt;/b&gt; Symbol for SD Card Slot connector.&lt;br&gt;</description>
-<wire x1="0" y1="0" x2="15.24" y2="0" width="0.127" layer="94"/>
-<wire x1="15.24" y1="0" x2="15.24" y2="-27.94" width="0.127" layer="94"/>
-<wire x1="15.24" y1="-27.94" x2="0" y2="-27.94" width="0.127" layer="94"/>
-<wire x1="0" y1="-27.94" x2="0" y2="0" width="0.127" layer="94"/>
-<pin name="RW" x="-2.54" y="-2.54" visible="off" length="short"/>
-<pin name="CS" x="-2.54" y="-5.08" visible="off" length="short"/>
-<pin name="DI" x="-2.54" y="-7.62" visible="off" length="short"/>
-<pin name="SCLK" x="-2.54" y="-10.16" visible="off" length="short"/>
-<pin name="D0" x="-2.54" y="-12.7" visible="off" length="short"/>
-<pin name="IRQ" x="-2.54" y="-15.24" visible="off" length="short"/>
-<pin name="3.3V" x="-2.54" y="-22.86" visible="off" length="short" direction="pwr"/>
-<pin name="GND" x="-2.54" y="-25.4" visible="off" length="short" direction="pwr"/>
-<text x="0" y="3.81" size="1.016" layer="95" font="vector" align="top-left">&gt;NAME</text>
-<text x="0" y="1.27" size="1.016" layer="96" font="vector">&gt;VALUE</text>
-<pin name="CRD_DTCT" x="-2.54" y="-20.32" visible="off" length="short"/>
-<text x="0.762" y="-2.54" size="1.016" layer="97" font="vector" align="center-left">RW</text>
-<text x="0.762" y="-5.08" size="1.016" layer="97" font="vector" align="center-left">CS</text>
-<text x="0.762" y="-7.62" size="1.016" layer="97" font="vector" align="center-left">DI</text>
-<text x="0.762" y="-10.16" size="1.016" layer="97" font="vector" align="center-left">SCLK</text>
-<text x="0.762" y="-12.7" size="1.016" layer="97" font="vector" align="center-left">D0</text>
-<text x="0.762" y="-15.24" size="1.016" layer="97" font="vector" align="center-left">IRQ</text>
-<text x="0.762" y="-20.32" size="1.016" layer="97" font="vector" align="center-left">CARD_DETECT</text>
-<text x="0.762" y="-22.86" size="1.016" layer="97" font="vector" align="center-left">3.3V</text>
-<text x="0.762" y="-25.4" size="1.016" layer="97" font="vector" align="center-left">GND</text>
-<wire x1="5.08" y1="-3.81" x2="5.588" y2="-3.81" width="0.127" layer="94"/>
-<wire x1="5.588" y1="-3.81" x2="6.858" y2="-3.81" width="0.127" layer="94"/>
-<wire x1="6.858" y1="-3.81" x2="8.128" y2="-3.81" width="0.127" layer="94"/>
-<wire x1="8.128" y1="-3.81" x2="9.398" y2="-3.81" width="0.127" layer="94"/>
-<wire x1="9.398" y1="-3.81" x2="10.668" y2="-3.81" width="0.127" layer="94"/>
-<wire x1="10.668" y1="-3.81" x2="10.7" y2="-3.81" width="0.127" layer="94"/>
-<wire x1="10.7" y1="-3.81" x2="12.7" y2="-5.81" width="0.127" layer="94"/>
-<wire x1="12.7" y1="-5.81" x2="12.7" y2="-13.97" width="0.127" layer="94"/>
-<wire x1="12.7" y1="-13.97" x2="11.43" y2="-13.97" width="0.127" layer="94"/>
-<wire x1="11.43" y1="-13.97" x2="6.35" y2="-13.97" width="0.127" layer="94"/>
-<wire x1="6.35" y1="-13.97" x2="5.08" y2="-13.97" width="0.127" layer="94"/>
-<wire x1="5.08" y1="-13.97" x2="5.08" y2="-3.81" width="0.127" layer="94"/>
-<wire x1="10.668" y1="-3.81" x2="10.668" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="9.398" y1="-3.81" x2="9.398" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="8.128" y1="-3.81" x2="8.128" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="6.858" y1="-3.81" x2="6.858" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="5.588" y1="-3.81" x2="5.588" y2="-5.08" width="0.127" layer="94"/>
-<wire x1="6.35" y1="-13.97" x2="6.35" y2="-9.89" width="0.127" layer="94"/>
-<wire x1="6.35" y1="-9.89" x2="7.35" y2="-8.89" width="0.127" layer="94" curve="-90"/>
-<wire x1="7.35" y1="-8.89" x2="10.43" y2="-8.89" width="0.127" layer="94"/>
-<wire x1="10.43" y1="-8.89" x2="11.43" y2="-9.89" width="0.127" layer="94" curve="-90"/>
-<wire x1="11.43" y1="-9.89" x2="11.43" y2="-13.97" width="0.127" layer="94"/>
-<text x="7.62" y="-1.27" size="1.016" layer="97" font="vector" align="center">SD CARD SLOT</text>
-</symbol>
 </symbols>
 <devicesets>
 <deviceset name="USB" prefix="J" uservalue="yes">
@@ -5069,40 +4967,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <attribute name="MPN" value="" constant="no"/>
 <attribute name="POPULATE" value="1" constant="no"/>
 <attribute name="URL" value="http://www.4uconnector.com/online/object/4udrawing/20236.pdf" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SD_CARD_SLOT" prefix="SD">
-<description>&lt;b&gt;Library:&lt;/b&gt;  MF_Connectors&lt;br/&gt;
-&lt;b&gt;Description:&lt;/b&gt; SD Card Connector&lt;br/&gt;</description>
-<gates>
-<gate name="G$1" symbol="SD_CARD" x="0" y="0"/>
-</gates>
-<devices>
-<device name="_MICRO_RIGHT" package="MF-MICROSD">
-<connects>
-<connect gate="G$1" pin="3.3V" pad="PIN4"/>
-<connect gate="G$1" pin="CRD_DTCT" pad="PIN9 PIN10"/>
-<connect gate="G$1" pin="CS" pad="PIN2"/>
-<connect gate="G$1" pin="D0" pad="PIN7"/>
-<connect gate="G$1" pin="DI" pad="PIN3"/>
-<connect gate="G$1" pin="GND" pad="G0 G1 PIN6"/>
-<connect gate="G$1" pin="IRQ" pad="PIN8"/>
-<connect gate="G$1" pin="RW" pad="PIN1"/>
-<connect gate="G$1" pin="SCLK" pad="PIN5"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:9948224/2"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="HOUSEPART" value="YES" constant="no"/>
-<attribute name="MPN" value="MF-MICROSD" constant="no"/>
-<attribute name="POPULATE" value="1" constant="no"/>
-<attribute name="URL" value="https://factory.macrofab.com/part/MF-MICROSD" constant="no"/>
-<attribute name="VALUE" value="MF-MICROSD" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7314,6 +7178,115 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </deviceset>
 </devicesets>
 </library>
+<library name="47352-1001">
+<packages>
+<package name="MOLEX_47352-1001" urn="urn:adsk.eagle:footprint:16346115/1">
+<wire x1="-7" y1="7.6" x2="7" y2="7.6" width="0.127" layer="51"/>
+<wire x1="7" y1="7.6" x2="7" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="7" y1="-7.6" x2="4.5" y2="-7.6" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-7.6" x2="4.5" y2="-6.6" width="0.127" layer="51"/>
+<wire x1="4.5" y1="-6.6" x2="-7" y2="-6.6" width="0.127" layer="51"/>
+<wire x1="-7" y1="-6.6" x2="-7" y2="7.6" width="0.127" layer="51"/>
+<wire x1="-6" y1="7.6" x2="-7" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-7" y1="7.6" x2="-7" y2="-4.6" width="0.127" layer="21"/>
+<wire x1="-5.4" y1="-6.6" x2="4.5" y2="-6.6" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-6.6" x2="4.5" y2="-7.6" width="0.127" layer="21"/>
+<wire x1="4.5" y1="-7.6" x2="5.5" y2="-7.6" width="0.127" layer="21"/>
+<wire x1="7" y1="-5.5" x2="7" y2="7.6" width="0.127" layer="21"/>
+<wire x1="7" y1="7.6" x2="1.8" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-2.6" y1="7.6" x2="-0.4" y2="7.6" width="0.127" layer="21"/>
+<wire x1="-7.5" y1="8.15" x2="7.55" y2="8.15" width="0.05" layer="39"/>
+<wire x1="7.55" y1="8.15" x2="7.55" y2="-8.15" width="0.05" layer="39"/>
+<wire x1="7.55" y1="-8.15" x2="4.25" y2="-8.15" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-8.15" x2="4.25" y2="-6.85" width="0.05" layer="39"/>
+<wire x1="4.25" y1="-6.85" x2="-5.6" y2="-6.85" width="0.05" layer="39"/>
+<wire x1="-5.6" y1="-6.85" x2="-5.6" y2="-7.15" width="0.05" layer="39"/>
+<wire x1="-5.6" y1="-7.15" x2="-7.5" y2="-7.15" width="0.05" layer="39"/>
+<wire x1="-7.5" y1="-7.15" x2="-7.5" y2="8.15" width="0.05" layer="39"/>
+<circle x="2" y="-7.3" radius="0.1" width="0.3" layer="21"/>
+<circle x="2" y="-3.7" radius="0.1" width="0.3" layer="51"/>
+<text x="-7.62" y="8.89" size="1.27" layer="25">&gt;NAME</text>
+<text x="-7.62" y="-10.16" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="8" x="-5.76" y="-3.66" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="S3" x="-6.55" y="-5.95" dx="1.9" dy="1.4" layer="1" rot="R90"/>
+<smd name="S1" x="-4.95" y="7.2" dx="1.3" dy="1.4" layer="1" rot="R180"/>
+<smd name="SW" x="-3.56" y="7.4" dx="1" dy="0.95" layer="1" rot="R270"/>
+<smd name="S2" x="0.75" y="7.2" dx="1.3" dy="1.4" layer="1" rot="R180"/>
+<smd name="S4" x="6.6" y="-6.95" dx="1.9" dy="1.4" layer="1" rot="R90"/>
+<smd name="7" x="-4.66" y="-3.66" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="6" x="-3.56" y="-3.86" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="-2.46" y="-3.66" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="-1.36" y="-3.86" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="-0.26" y="-3.66" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="0.84" y="-3.26" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="1" x="1.94" y="-3.66" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="MOLEX_47352-1001" urn="urn:adsk.eagle:package:16346114/2" type="model">
+<packageinstances>
+<packageinstance name="MOLEX_47352-1001"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="47352-1001">
+<wire x1="-7.62" y1="15.24" x2="7.62" y2="15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="-7.62" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-15.24" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
+<text x="-7.62" y="16.002" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="DATA2" x="-12.7" y="7.62" length="middle" direction="pas"/>
+<pin name="CD/DATA3" x="-12.7" y="5.08" length="middle" direction="pas"/>
+<pin name="VDD" x="-12.7" y="-5.08" length="middle" direction="pas"/>
+<pin name="CMD" x="-12.7" y="2.54" length="middle" direction="pas"/>
+<pin name="CLK" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="VSS" x="-12.7" y="-7.62" length="middle" direction="pas"/>
+<pin name="DATA0" x="-12.7" y="12.7" length="middle" direction="pas"/>
+<pin name="DATA1" x="-12.7" y="10.16" length="middle" direction="pas"/>
+<pin name="SW" x="-12.7" y="-2.54" length="middle" direction="pas"/>
+<pin name="SHIELD" x="-12.7" y="-12.7" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="47352-1001" prefix="J">
+<description>1.10mm Pitch microSD Card Connector, Push-Push Type, with VSS (Supply Voltage Ground) Detect Switch, Lead-Free</description>
+<gates>
+<gate name="G$1" symbol="47352-1001" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOLEX_47352-1001">
+<connects>
+<connect gate="G$1" pin="CD/DATA3" pad="2"/>
+<connect gate="G$1" pin="CLK" pad="5"/>
+<connect gate="G$1" pin="CMD" pad="3"/>
+<connect gate="G$1" pin="DATA0" pad="7"/>
+<connect gate="G$1" pin="DATA1" pad="8"/>
+<connect gate="G$1" pin="DATA2" pad="1"/>
+<connect gate="G$1" pin="SHIELD" pad="S1 S2 S3 S4"/>
+<connect gate="G$1" pin="SW" pad="SW"/>
+<connect gate="G$1" pin="VDD" pad="4"/>
+<connect gate="G$1" pin="VSS" pad="6"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:16346114/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" 1.10mm Pitch microSD Card Connector, Push-Push Type, with VSS _Supply Voltage Ground_ Detect Switch, Lead-Free "/>
+<attribute name="MF" value="Molex"/>
+<attribute name="MP" value="47352-1001"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7504,10 +7477,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="S3" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
 <part name="S4" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
 <part name="S1" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
-<part name="SD1" library="MF_Connectors" deviceset="SD_CARD_SLOT" device="_MICRO_RIGHT" package3d_urn="urn:adsk.eagle:package:9948224/2" value="MF-MICROSD"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="2"/>
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="2"/>
+<part name="J9" library="47352-1001" deviceset="47352-1001" device="" package3d_urn="urn:adsk.eagle:package:16346114/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -7871,12 +7844,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="NAME" x="60.94906875" y="27.947290625" size="2.543640625" layer="95"/>
 <attribute name="VALUE" x="60.94628125" y="15.22628125" size="2.54456875" layer="96"/>
 </instance>
-<instance part="SD1" gate="G$1" x="347.98" y="170.18" smashed="yes">
-<attribute name="NAME" x="347.98" y="173.99" size="1.016" layer="95" font="vector" align="top-left"/>
-<attribute name="VALUE" x="347.98" y="171.45" size="1.016" layer="96" font="vector"/>
-</instance>
 <instance part="GND9" gate="1" x="165.1" y="185.42" smashed="yes">
 <attribute name="VALUE" x="162.56" y="182.88" size="1.778" layer="96"/>
+</instance>
+<instance part="J9" gate="G$1" x="358.14" y="152.4" smashed="yes">
+<attribute name="NAME" x="350.52" y="168.402" size="1.778" layer="95"/>
+<attribute name="VALUE" x="350.52" y="134.62" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -8027,7 +8000,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="345.44" y1="144.78" x2="342.9" y2="144.78" width="0.1524" layer="91"/>
 <wire x1="342.9" y1="144.78" x2="342.9" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<pinref part="SD1" gate="G$1" pin="GND"/>
+<pinref part="J9" gate="G$1" pin="VSS"/>
+<pinref part="J9" gate="G$1" pin="SHIELD"/>
+<wire x1="345.44" y1="139.7" x2="345.44" y2="144.78" width="0.1524" layer="91"/>
+<junction x="345.44" y="144.78"/>
 </segment>
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
@@ -8430,11 +8406,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SD_CS" class="0">
 <segment>
-<wire x1="345.44" y1="165.1" x2="325.12" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="345.44" y1="157.48" x2="325.12" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="325.12" y1="165.1" x2="325.12" y2="170.18" width="0.1524" layer="91"/>
-<label x="325.12" y="165.1" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="SD1" gate="G$1" pin="CS"/>
+<wire x1="325.12" y1="157.48" x2="325.12" y2="170.18" width="0.1524" layer="91"/>
+<label x="325.12" y="157.48" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="CD/DATA3"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="IO5"/>
@@ -8445,10 +8421,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="SD_MOSI" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="162.56" x2="317.5" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="162.56" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
-<label x="317.5" y="162.56" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="SD1" gate="G$1" pin="DI"/>
+<wire x1="345.44" y1="154.94" x2="317.5" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="154.94" x2="317.5" y2="170.18" width="0.1524" layer="91"/>
+<label x="317.5" y="154.94" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="CMD"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="IO23"/>
@@ -8459,10 +8435,10 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <net name="SD_CLK" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="1"/>
-<wire x1="345.44" y1="160.02" x2="309.88" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="160.02" x2="309.88" y2="170.18" width="0.1524" layer="91"/>
-<label x="309.88" y="160.02" size="1.27" layer="95" rot="R270" xref="yes"/>
-<pinref part="SD1" gate="G$1" pin="SCLK"/>
+<wire x1="345.44" y1="152.4" x2="309.88" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="152.4" x2="309.88" y2="170.18" width="0.1524" layer="91"/>
+<label x="309.88" y="152.4" size="1.27" layer="95" rot="R270" xref="yes"/>
+<pinref part="J9" gate="G$1" pin="CLK"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="IO18"/>
@@ -8472,11 +8448,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SD_MISO" class="0">
 <segment>
-<wire x1="345.44" y1="157.48" x2="302.26" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="157.48" x2="302.26" y2="170.18" width="0.1524" layer="91"/>
-<label x="302.26" y="157.48" size="1.27" layer="95" rot="R270" xref="yes"/>
+<wire x1="345.44" y1="165.1" x2="302.26" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="165.1" x2="302.26" y2="170.18" width="0.1524" layer="91"/>
+<label x="302.26" y="165.1" size="1.27" layer="95" rot="R270" xref="yes"/>
 <pinref part="R43" gate="G$1" pin="1"/>
-<pinref part="SD1" gate="G$1" pin="D0"/>
+<pinref part="J9" gate="G$1" pin="DATA0"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="IO19"/>
@@ -8506,7 +8482,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="330.2" y="180.34" size="1.27" layer="95" rot="R90" xref="yes"/>
 <pinref part="R43" gate="G$1" pin="2"/>
 <junction x="302.26" y="180.34"/>
-<pinref part="SD1" gate="G$1" pin="3.3V"/>
+<pinref part="J9" gate="G$1" pin="VDD"/>
 </segment>
 </net>
 <net name="I2C_SDA" class="0">
