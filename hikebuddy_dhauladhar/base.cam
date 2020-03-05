@@ -82,7 +82,8 @@
                     },
                     "filename_format": "%PREFIX/profile.gbr",
                     "layers": [
-                        46
+                        46,
+                        20
                     ],
                     "milling": true,
                     "polarity": "positive",
