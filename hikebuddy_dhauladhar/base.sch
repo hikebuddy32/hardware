@@ -3725,62 +3725,6 @@ Fits 4-40 Screws.
 &lt;/ul&gt;</description>
 <pad name="P$1" x="0" y="0" drill="0.508"/>
 </package>
-<package name="PAD.02X.02">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.02" Square&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.02" x 0.02"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="0.508" dy="0.508" layer="1"/>
-</package>
-<package name="PAD.03X.03">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.03" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.03" x 0.03"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="0.762" dy="0.762" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.05">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.05" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.05" x 0.05"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="1.27" dy="1.27" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="PAD.03X.04">
-<description>&lt;h3&gt;Electrically Conductive Pad 0.04" Circle&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area: 0.04" x 0.04"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<smd name="P$1" x="0" y="0" dx="1.016" dy="1.016" layer="1" roundness="100" cream="no"/>
-</package>
-<package name="TP_15TH">
-<description>&lt;h3&gt;Electrically Conductive Via 0.015" Drill&lt;/h3&gt;
-Used as a test point connection for pogo pins or other debugging tools. 
-&lt;p&gt;Specifications:
-&lt;li&gt;Area:0.015"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;TEST_POINT&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="P$1" x="0" y="0" drill="0.381" diameter="0.6096" stop="no"/>
-<circle x="0" y="0" radius="0.381" width="0" layer="30"/>
-</package>
 </packages>
 <symbols>
 <symbol name="JST_2MM_MALE">
@@ -3870,13 +3814,6 @@ Used as a test point connection for pogo pins or other debugging tools.
 <text x="-2.54" y="-4.826" size="1.778" layer="96" font="vector">&gt;VALUE</text>
 <text x="-2.54" y="3.048" size="1.778" layer="95" font="vector">&gt;NAME</text>
 <pin name="1" x="7.62" y="0" visible="off" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="TEST-POINT">
-<wire x1="2.54" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.762" x2="3.302" y2="-0.762" width="0.1524" layer="94" curve="180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;Name</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector">&gt;Value</text>
-<pin name="1" x="0" y="0" visible="off" length="point" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4721,68 +4658,6 @@ Also note, the SNAP packages are for using a snappable style connector. We sell 
 <device name="PTH_NO_SILK_SMALL" package="1X01_SMALL">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="TEST-POINT" prefix="TP">
-<description>&lt;h3&gt;SparkFun Test Points&lt;/h3&gt;
-&lt;p&gt;Bare copper test points for troubleshooting or In-Circuit-Testing. These are used by our Production team for verifying production board runs using pogo-pins on test beds.&lt;/p&gt;
-&lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
-&lt;ul&gt;&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13284”&gt;SparkFun LSM9DS1 Breakout&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=”https://www.sparkfun.com/products/13714”&gt;SparkFun PSOC&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/13879"&gt;SparkFun Load Cell Amplifier&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="TEST-POINT" x="0" y="0"/>
-</gates>
-<devices>
-<device name="2" package="PAD.02X.02">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3" package="PAD.03X.03">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X5" package="PAD.03X.05">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="3X4" package="PAD.03X.04">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="TP_15TH_THRU" package="TP_15TH">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="POGO_PTH" package="1X01_NO_SILK">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -7478,9 +7353,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <part name="S4" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
 <part name="S1" library="EVQ-P4HB3B" deviceset="EVQ-P4HB3B" device="" override_package3d_urn="urn:adsk.eagle:package:16346036/2" override_package_urn="urn:adsk.eagle:footprint:16346037/1" override_locally_modified="yes"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="TP1" library="SparkFun-Connectors" deviceset="TEST-POINT" device="2"/>
-<part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="2"/>
 <part name="J9" library="47352-1001" deviceset="47352-1001" device="" package3d_urn="urn:adsk.eagle:package:16346114/2"/>
+<part name="R32" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R33" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R34" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="R35" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:23555/3" value="10k"/>
+<part name="3V3_ESP3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VCC" device="" value="3V3_ESP"/>
 </parts>
 <sheets>
 <sheet>
@@ -7851,6 +7729,25 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <attribute name="NAME" x="350.52" y="168.402" size="1.778" layer="95"/>
 <attribute name="VALUE" x="350.52" y="134.62" size="1.778" layer="96"/>
 </instance>
+<instance part="R32" gate="G$1" x="53.34" y="27.94" smashed="yes" rot="R90">
+<attribute name="NAME" x="51.816" y="27.94" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="54.864" y="27.94" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R33" gate="G$1" x="48.26" y="10.16" smashed="yes" rot="R90">
+<attribute name="NAME" x="46.736" y="10.16" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="49.784" y="10.16" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R34" gate="G$1" x="43.18" y="-7.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="41.656" y="-7.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="44.704" y="-7.62" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="R35" gate="G$1" x="38.1" y="-25.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.576" y="-25.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="39.624" y="-25.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="3V3_ESP3" gate="G$1" x="38.1" y="33.02" smashed="yes">
+<attribute name="VALUE" x="38.1" y="35.814" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7939,6 +7836,22 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <junction x="403.86" y="119.38"/>
 <pinref part="C21" gate="G$1" pin="1"/>
 <junction x="403.86" y="114.3"/>
+</segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="-20.32" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<pinref part="R32" gate="G$1" pin="2"/>
+<wire x1="38.1" y1="-2.54" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="15.24" x2="38.1" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="33.02" x2="53.34" y2="33.02" width="0.1524" layer="91"/>
+<pinref part="R33" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="15.24" x2="38.1" y2="15.24" width="0.1524" layer="91"/>
+<junction x="38.1" y="15.24"/>
+<pinref part="R34" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="-2.54" x2="38.1" y2="-2.54" width="0.1524" layer="91"/>
+<junction x="38.1" y="-2.54"/>
+<pinref part="3V3_ESP3" gate="G$1" pin="VCC"/>
+<junction x="38.1" y="33.02"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8887,9 +8800,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW1" class="0">
 <segment>
-<wire x1="58.42" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="22.86" x2="53.34" y2="22.86" width="0.1524" layer="91"/>
 <label x="27.94" y="22.86" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S1" gate="G$1" pin="1"/>
+<pinref part="R32" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<junction x="53.34" y="22.86"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_VP"/>
@@ -8899,9 +8815,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW2" class="0">
 <segment>
-<wire x1="58.42" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="5.08" x2="48.26" y2="5.08" width="0.1524" layer="91"/>
 <label x="27.94" y="5.08" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S4" gate="G$1" pin="1"/>
+<pinref part="R33" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="5.08" x2="27.94" y2="5.08" width="0.1524" layer="91"/>
+<junction x="48.26" y="5.08"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_CAPP"/>
@@ -8911,9 +8830,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW3" class="0">
 <segment>
-<wire x1="58.42" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-12.7" x2="43.18" y2="-12.7" width="0.1524" layer="91"/>
 <label x="27.94" y="-12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S3" gate="G$1" pin="1"/>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="-12.7" x2="27.94" y2="-12.7" width="0.1524" layer="91"/>
+<junction x="43.18" y="-12.7"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_CAPN"/>
@@ -8923,9 +8845,12 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 </net>
 <net name="SW4" class="0">
 <segment>
-<wire x1="58.42" y1="-30.48" x2="27.94" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="-30.48" x2="38.1" y2="-30.48" width="0.1524" layer="91"/>
 <label x="27.94" y="-30.48" size="1.778" layer="95" rot="R180" xref="yes"/>
 <pinref part="S2" gate="G$1" pin="1"/>
+<pinref part="R35" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="-30.48" x2="27.94" y2="-30.48" width="0.1524" layer="91"/>
+<junction x="38.1" y="-30.48"/>
 </segment>
 <segment>
 <pinref part="ESP32-PICO-D4" gate="G$1" pin="SENSOR_VN"/>
@@ -9165,14 +9090,6 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <instance part="C20" gate="G$1" x="50.8" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="48.26" y="64.516" size="1.016" layer="95" font="vector" rot="R180" align="top-left"/>
 <attribute name="VALUE" x="48.26" y="67.564" size="1.016" layer="96" font="vector" rot="R180"/>
-</instance>
-<instance part="TP1" gate="G$1" x="78.74" y="88.9" smashed="yes">
-<attribute name="NAME" x="76.2" y="91.44" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="76.2" y="86.36" size="1.778" layer="96" font="vector"/>
-</instance>
-<instance part="TP2" gate="G$1" x="86.36" y="88.9" smashed="yes" rot="R180">
-<attribute name="NAME" x="88.9" y="86.36" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="88.9" y="91.44" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 </instances>
 <busses>
@@ -9701,10 +9618,11 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <label x="208.28" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$24" class="0">
+<net name="N$19" class="0">
 <segment>
-<wire x1="78.74" y1="88.9" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="EN3"/>
 <pinref part="U1" gate="G$1" pin="FAULT"/>
+<wire x1="78.74" y1="88.9" x2="78.74" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="83.82" x2="58.42" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="P$2"/>
 <wire x1="58.42" y1="83.82" x2="53.34" y2="83.82" width="0.1524" layer="91"/>
@@ -9713,14 +9631,7 @@ The library has been designed by&lt;a href="https://www.facebook.com/groups/eagl
 <wire x1="50.8" y1="68.58" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="83.82" x2="50.8" y2="83.82" width="0.1524" layer="91"/>
 <junction x="53.34" y="83.82"/>
-<pinref part="TP1" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="N$19" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="EN3"/>
-<pinref part="TP2" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="88.9" x2="93.98" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="88.9" x2="78.74" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
